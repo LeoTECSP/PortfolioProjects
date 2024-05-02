@@ -1,36 +1,46 @@
-.links li{
-    border: 1px solid blue;
-    background-color: rgb(255, 255, 255); 
-    border-style: none;
-    list-style: none;
-    display: inline-block;
-    margin-right: 2%;
-    margin-left: 2%;
+
+#myName{
+  text-align: center;
 }
 
-.links{
+#smallDesc{
 
-    text-align: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color:rgb(90, 101, 124);
+  font-size:medium;
+}
+
+#icons{
+  text-align: center;
 
 }
 
-.links img{
-    width: 60px;
-    height: 60px;
-    display: block;
+#aboutMe{
+  text-align: center;
+  
 }
 
-div.project {
+
+.logo{
+
+  text-align: center;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
+
+li.project {
     display: inline-block;
     width: 30%;
-    margin: 20px;
+    margin-left: 12px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     text-align:center;
-    
     margin-right: 1%;
-    margin-left: 2%;
+
 
   }
   
@@ -38,9 +48,23 @@ div.project {
   div.container {
     text-align:center;
     text-align: center;
-    padding: 10px 20px;
+    padding: 5px 20px;
+    
   }
 
 img {width: 100%}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
 
 
